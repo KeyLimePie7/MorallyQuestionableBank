@@ -126,12 +126,12 @@ customer:
 
 ```java
 String sql = "CREATE TABLE customer ("
-		        		+ " ws_cust_id int primary key NOT NULL GENERATED ALWAYS AS IDENTITY (START WITH 100000000, INCREMENT BY 1),"
-		        		+ " ws_ssn int,"
-		        		+ " name varchar(255),"
-		        		+ " ws_adrs varchar(255),"
-		        		+ " age int"
-		        		+ ")";
+   + " ws_cust_id int primary key NOT NULL GENERATED ALWAYS AS IDENTITY (START WITH 100000000, INCREMENT BY 1),"
+   + " ws_ssn int,"
+   + " name varchar(255),"
+   + " ws_adrs varchar(255),"
+   + " age int"
+   + ")";
 statement.execute(sql);
 ```
 
@@ -139,13 +139,13 @@ account:
 
 ```java
 String sql = "CREATE TABLE account ("
-		    			+ " ws_acct_id int primary key GENERATED ALWAYS AS IDENTITY (START WITH 200000000, INCREMENT BY 1),"
-		    			+ " ws_cust_id int,"
-		    			+ " ws_acct_type varchar(255),"
-		    			+ " ws_acct_balance int,"
-		    			+ " ws_acct_crdate date,"
-		    			+ " ws_acct_lasttrdate date"
-		    			+ ")";
+   + " ws_acct_id int primary key GENERATED ALWAYS AS IDENTITY (START WITH 200000000, INCREMENT BY 1),"
+   + " ws_cust_id int,"
+   + " ws_acct_type varchar(255),"
+   + " ws_acct_balance int,"
+   + " ws_acct_crdate date,"
+   + " ws_acct_lasttrdate date"
+   + ")";
 statement.execute(sql);
 ```
 
@@ -153,11 +153,11 @@ transactions:
 
 ```java
 String sql = "CREATE TABLE transactions ("
-		        		+ " ws_trxn_id int primary key GENERATED ALWAYS AS IDENTITY (START WITH 300000000, INCREMENT BY 1),"
-		    			+ " ws_acct_id int,"
-		    			+ " ws_trxn_amount int,"
-		    			+ " ws_trxn_type varchar(255),"
-		    			+ " ws_trxn_date DATE"
-		    			+ ")";
+   + " ws_trxn_id int primary key GENERATED ALWAYS AS IDENTITY (START WITH 300000000, INCREMENT BY 1),"
+   + " ws_acct_id int,"
+   + " ws_trxn_amount int,"
+   + " ws_trxn_type varchar(255),"
+   + " ws_trxn_date DATE"
+   + ")";
 statement.execute(sql);
 ```
