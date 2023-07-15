@@ -39,64 +39,64 @@ And we must create separate accounts with different access permissions for them.
 
       The input validation was done using javascript on the JSP frontend to improve user experience since feedback is instant. 
 
-      ![LoginPage](./images/LoginPage.JPG)
+      ![LoginPage](./Images/LoginPage.JPG)
 
    2. The "Create Customer" screen
 
       To allow the new-customer-account executive to create a new customer
 
-      ![CreateCustomer](./images/CreateCustomer.JPG)
+      ![CreateCustomer](./Images/CreateCustomer.JPG)
 
       There is also input validation done here
    3. The "Update Customer" screen
 
       To allow account executive to update existing customer information
    
-      ![UpdateCustomer](./images/UpdateCustomer.JPG)
+      ![UpdateCustomer](./Images/UpdateCustomer.JPG)
 
    4. The "Search Customer" screen
 
       Before the account executive can update anything, they should be able to query for existing customers
       
-      ![SearchCustomer](./images/CustomerSearch.JPG)
+      ![SearchCustomer](./Images/CustomerSearch.JPG)
 
       There is also input validation done here.
    5. The "Delete Customer" screen
 
       To allow the account executive to delete any existing customer
 
-      ![DeleteCustomer](./images/DeleteCustomer.JPG)
+      ![DeleteCustomer](./Images/DeleteCustomer.JPG)
 
    6. The "Delete Account" screen
 
       To allow the account executive to delete existing accounts.
 
-      ![DeleteAccount](./images/DeleteAccount.JPG)
+      ![DeleteAccount](./Images/DeleteAccount.JPG)
 
    7. The "View Customer Status" screen
 
-      ![CustomerStatus](./images/CustomerStatus.JPG)
-      
+      ![CustomerStatus](./Images/CustomerStatus.JPG)
+
    8. The "View Account Status" screen
 
-      ![AccountStatus](./images/AccountStatus.JPG)
+      ![AccountStatus](./Images/AccountStatus.JPG)
 
    
 2. For the cashier/teller
    1. The "Deposit" screen
 
-      ![DepositMoney](./images/DepositMoney.JPG)
+      ![DepositMoney](./Images/DepositMoney.JPG)
       
    2. The "Withdraw" screen
 
-      ![WithdrawMoney](./images/WithdrawMoney.JPG)
+      ![WithdrawMoney](./Images/WithdrawMoney.JPG)
 
    3. The "Transfer" screen
 
-      ![TransferMoney](./images/TransferMoney.JPG)
+      ![TransferMoney](./Images/TransferMoney.JPG)
    
    4. The "Get Statement" screen
 
-      ![ViewStatement](./images/ViewStatement.JPG)
+      ![ViewStatement](./Images/ViewStatement.JPG)
 
-      ![ViewStatement2](./images/ViewStatement2.JPG)
+      ![ViewStatement2](./Images/ViewStatement2.JPG)
