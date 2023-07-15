@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Thu Oct 27 16:42:17 SGT 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.16.1.1 - (1901046): instance a816c00e-0184-189b-3c5e-00000eb8eb80 
+on database directory C:\Users\2500828\Downloads\EclipseJeeWorkspace\bank-casestudy-master-221026\bankDB with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@6659c656 
+Loaded from file:/C:/Users/2500828/Downloads/EclipseJeeWorkspace/bank-casestudy-master-221026/src/main/webapp/WEB-INF/lib/derby.jar
+java.vendor=Eclipse Adoptium
+java.runtime.version=17.0.1+12
+user.dir=C:\Users\2500828\Downloads\EclipseJeeWorkspace\bank-casestudy-master-221026
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
