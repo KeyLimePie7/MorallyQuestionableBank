@@ -44,6 +44,7 @@ And we must create separate accounts with different access permissions for them.
    2. The "Create Customer" screen
 
       To allow the new-customer-account executive to create a new customer
+
       ![CreateCustomer](./images/CreateCustomer.JPG)
 
       There is also input validation done here
@@ -52,6 +53,7 @@ And we must create separate accounts with different access permissions for them.
       To allow account executive to update existing customer information
    
       ![UpdateCustomer](./images/UpdateCustomer.JPG)
+
    4. The "Search Customer" screen
 
       Before the account executive can update anything, they should be able to query for existing customers
@@ -64,14 +66,17 @@ And we must create separate accounts with different access permissions for them.
       To allow the account executive to delete any existing customer
 
       ![DeleteCustomer](./images/DeleteCustomer.JPG)
+
    6. The "Delete Account" screen
 
       To allow the account executive to delete existing accounts.
 
       ![DeleteAccount](./images/DeleteAccount.JPG)
+
    7. The "View Customer Status" screen
 
       ![CustomerStatus](./images/CustomerStatus.JPG)
+      
    8. The "View Account Status" screen
 
       ![AccountStatus](./images/AccountStatus.JPG)
