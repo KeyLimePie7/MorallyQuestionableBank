@@ -132,7 +132,7 @@ String sql = "CREATE TABLE customer ("
 		        		+ " ws_adrs varchar(255),"
 		        		+ " age int"
 		        		+ ")";
-		        statement.execute(sql);
+statement.execute(sql);
 ```
 
 account:
@@ -146,7 +146,7 @@ String sql = "CREATE TABLE account ("
 		    			+ " ws_acct_crdate date,"
 		    			+ " ws_acct_lasttrdate date"
 		    			+ ")";
-		        statement.execute(sql);
+statement.execute(sql);
 ```
 
 transactions:
@@ -159,5 +159,5 @@ String sql = "CREATE TABLE transactions ("
 		    			+ " ws_trxn_type varchar(255),"
 		    			+ " ws_trxn_date DATE"
 		    			+ ")";
-		        statement.execute(sql);
+statement.execute(sql);
 ```
